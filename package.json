@@ -4,7 +4,7 @@
   "description": "Mock express for testing with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "yarn run jest"
   },
   "keywords": [
     "jest",
@@ -14,19 +14,22 @@
     "test"
   ],
   "author": {
-    "name": "Concrete Media Limited",
-    "url": "http://concrete.cc",
-    "email": "infrastructure@concreteplatform.com"
+    "name": "Ben Wart",
+    "email": "benwart@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/concrete-cc/jest-mock-express.git"
+    "url": "https://github.com/benwart/jest-mock-express.git"
   },
   "bugs": {
-    "url": "https://github.com/concrete-cc/jest-mock-express/issues"
+    "url": "https://github.com/benwart/jest-mock-express/issues"
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^18.1.0"
+    "jest": "^20.0.4"
+  },
+  "devDependencies": {
+    "jest-cli": "^20.0.4",
+    "prettier": "^1.11.1"
   }
 }

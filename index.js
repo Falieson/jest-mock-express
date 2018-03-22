@@ -1,5 +1,7 @@
-const response = require('./lib/response')
+const MockRequest = require("./lib/request");
+const MockResponse = require("./lib/response");
 
 module.exports = {
-  response,
-}
+  MockRequest,
+  MockResponse
+};
